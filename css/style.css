@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+/******************************* Elements ***********************/
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:40px;
+}
+
+i{
+    background-color: #ed6663;
+    padding:10px;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/*******************************   Classes ****************************/
+.navbar{
+    padding:20px 0;
+    background-color: #f4f6ff;
+}
+
+.menu{
+    display:inline-block;
+    position:absolute;
+    right:20px;
+    color: #1b262c;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:10px;
+    font-size:15px;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ed6663;
+    margin-left:30px;
+}
+
+.menu-item{
+    margin:0 10px;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ed6663;
+    color:white;
+    padding:8px;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background-color: #900d0d;
+}
+.section-1{
+    color:white;
+    background-color: #3f4441;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    height: 400px;
+    text-align: center;
+}
+
+.moto-1{
+    font-size:30px;
+    text-align: left;
+}
+
+.moto-2{
+    font-size:50px;
+    font-weight: 600;
+}
+
+.moto{
+    display: inline-block;    
+    position: relative;
+    top:150px;
+}
+
+.section-2{
+    background-color: #f4f6ff;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+
+.avatar{
+    width:200px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 0;
+    margin-top:100px;
+}
+
+.portfolio{
+    display:inline-block;
+    width: 60%;
+    text-align: left;
+}
+
+.info{
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.portfolio > h1{
+    margin-bottom: 30px;
+}
+
+
+.section-3{
+    color:white;
+    background-color: #3f4441;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:100px;
+}
+
+.section-3 > p{
+    margin: 20px 0 30px 0;
+    font-weight: 200;
+}
+
+.section-3 > hr{
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card{
+    display:inline-block;
+    color: black;
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    width:20%;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-description{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+
+.card-2{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.section-4{
+    background-color: #f4f6ff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.skills-card{
+    display:inline-block;
+    margin-top: 30px;
+    text-align: left;
+    vertical-align: top;
+    margin: 50px 150px;
+}
+
+.skills-card > h4{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bar{
+    width:250px;
+    height:5px;
+    background: linear-gradient(to right, #ed6663 70%,#52575d 30%);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.section-5{
+    background-color:#3f4441;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inputs{
+    display: block;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.mssg{
+    display: inline-block;
+    margin-top: 50px;
+}
